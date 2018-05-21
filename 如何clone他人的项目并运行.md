@@ -1,4 +1,3 @@
-
 #  如何顺利的clone别人的项目并且运行
 
 ## 明确目的
@@ -6,7 +5,7 @@
 - 单项目的合作开发
 - 多人开源项目开发 fork and pull request
 
-## how to do ?
+## how to do
 
 ### 下载
 - git clone [地址]
