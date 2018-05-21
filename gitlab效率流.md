@@ -1,6 +1,7 @@
 # GitLab 效率流
 
 ## 利用gitlab tool仓库下载软件
+`ty-software`组织下的`awesome-tool`有一些好用的工具
 
 ## Git知识的基础整理
 
@@ -21,13 +22,15 @@
 
 ## Git进阶技巧
 
-### gitIgnore
+### GitIgnore 文件
+可以忽略提交一些文件到git仓库
 
 ### 分支
-- 命令行分支
-- 工具流
-- Git Flow(如何利用分支开发)
-- CI/CD (待定,等代码仓库与服务器的地址在同一个网络)
+Git内部的提交与head指针，分支指针的关系
+
+![gitlab-flow-1](E:\gitlab repository\awesome-tutorial\images\gitlab-flow-1.png)
+
+### Git-Flow
 
 ### issues
 
@@ -38,17 +41,5 @@
 ### clone与fork
 
 ## Git 权威指南
-- `Pro Git` 见awesome-tool 
-
-
-## 后端相关
-
-### 如何顺利的clone别人的项目并且运行
-- 明确你的目的(clone还是编写)
-
-### 部署项目到linux服务器
-- 打包
-- 复制数据库
-- 运行
-- 监控
+一本来自于git官方的教程，`Pro Git` 见`awesome-tool`下的`书籍` 目录
 
