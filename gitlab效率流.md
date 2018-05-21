@@ -28,7 +28,7 @@
 ### 分支
 Git内部的提交与head指针，分支指针的关系
 
-![gitlab-flow-1](E:\gitlab repository\awesome-tutorial\images\gitlab-flow-1.png)
+![gitlab-flow-1](images/gitlab-flow-1.png)
 
 ### Git-Flow
 
