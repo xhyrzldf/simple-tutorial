@@ -1,5 +1,7 @@
 # 简单的部署java项目到linux服务器
 
+Author : `M@tr!x`
+
 ## 打包
 
 利用maven(gradle)插件完成,这里以maven为例子

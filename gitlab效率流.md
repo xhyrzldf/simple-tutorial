@@ -1,6 +1,9 @@
 # GitLab 效率流
 
+Author : `M@tr!x`
+
 ## 利用gitlab tool仓库下载软件
+
 `ty-software`组织下的`awesome-tool`有一些好用的工具
 
 ## Git知识的基础整理
