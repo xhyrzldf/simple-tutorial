@@ -73,7 +73,7 @@ CredSSP 协议的某些版本容易受到针对客户端的加密 oracle 攻击�
 ## 参考资料
 - [credssp-updates-for-cve-2018-0886-march-13-2018](https://support.microsoft.com/zh-cn/help/4093492/credssp-updates-for-cve-2018-0886-march-13-2018)
 
-- [security-update-deployment-information-may-08-2018](https://support.microsoft.com/zh-cn/help/20180508/security-update-deployment-information-may-08-2018()
+- [security-update-deployment-information-may-08-2018](https://support.microsoft.com/zh-cn/help/20180508/security-update-deployment-information-may-08-2018)
 
 - [https://thehackernews.com/2018/03/credssp-rdp-exploit.html](https://thehackernews.com/2018/03/credssp-rdp-exploit.html)
 
