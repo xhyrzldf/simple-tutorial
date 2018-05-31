@@ -10,7 +10,7 @@
 
 - [如何clone他人的项目并运行](http://192.168.1.33:8080/ty-software/awesome-tutorial/blob/801e60363048312893085e634cb971a420028863/%E5%A6%82%E4%BD%95clone%E4%BB%96%E4%BA%BA%E7%9A%84%E9%A1%B9%E7%9B%AE%E5%B9%B6%E8%BF%90%E8%A1%8C.md)
 
-- [如何写一个通用的README规范](http://192.168.1.33:8080/ty-software/awesome-tutorial/blob/master/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E4%B8%AA%E9%80%9A%E7%94%A8%E7%9A%84README%E8%A7%84%E8%8C%83.md)
+- [README文档的规范](http://192.168.1.33:8080/ty-software/awesome-tutorial/blob/README文档的规范.md)
 
 ## 运维,部署与监控
 
