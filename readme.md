@@ -12,6 +12,9 @@
 
 - [关于README文档的规范](http://192.168.1.33:8080/ty-software/awesome-tutorial/blob/master/%E5%85%B3%E4%BA%8EREADME%E6%96%87%E6%A1%A3%E7%9A%84%E8%A7%84%E8%8C%83.md)
 
+## 程序
+- [Java程序中获得本机ip本进行验证]()
+
 ## 运维,部署与监控
 
 - [简单的部署java项目到linux服务器](http://192.168.1.33:8080/ty-software/awesome-tutorial/blob/801e60363048312893085e634cb971a420028863/%E7%AE%80%E5%8D%95%E7%9A%84%E9%83%A8%E7%BD%B2java%E9%A1%B9%E7%9B%AE%E5%88%B0linux%E6%9C%8D%E5%8A%A1%E5%99%A8.md)
