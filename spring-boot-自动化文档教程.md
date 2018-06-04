@@ -338,8 +338,8 @@ asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicC
 ![](images/auto-api-doc-2.png)
 
 ## 参考文章
-[spring-fox-docs](http://springfox.github.io/springfox/docs/current/#quick-start-guides)
-[Github-wiki文档](https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations)
-[SpringBoot系列 - 集成Swagger2](https://www.xncoding.com/2017/07/08/spring/sb-swagger2.html)
-[使用Swagger生成RESTful API文档](https://www.xncoding.com/2017/06/09/web/swagger.html)
+- [spring-fox-docs](http://springfox.github.io/springfox/docs/current/#quick-start-guides)
+- [Github-wiki文档](https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations)
+- [SpringBoot系列 - 集成Swagger2](https://www.xncoding.com/2017/07/08/spring/sb-swagger2.html)
+- [使用Swagger生成RESTful API文档](https://www.xncoding.com/2017/06/09/web/swagger.html)
 
