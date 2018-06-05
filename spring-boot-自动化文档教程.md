@@ -337,6 +337,11 @@ asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -a pdf-style=KaiGenGothicC
 注意最后的`api.adoc`换成自己的文档名，稍作等待，就可以在同目录下看到一份生成好的pdf文档了。文档如下图所示。
 ![](images/auto-api-doc-2.png)
 
+## 注意事项
+### json格式转换adoc解析错误
+- 有可能是原生的json字符串格式不正确，debug获得读取到的json字符串，分析出错误的json字符串，将其更改为正确的即可.(例如example里的字符串为json字符串,就有可能导致这样的问题)
+- 组件的版本原因导致的一些解析错误，这里建议使用本文档提供的组件版本号。
+
 ## 参考文章
 - [spring-fox-docs](http://springfox.github.io/springfox/docs/current/#quick-start-guides)
 - [Github-wiki文档](https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations)
