@@ -16,6 +16,7 @@
 - [Java程序中获得本机ip本进行验证](http://192.168.1.33:8080/ty-software/awesome-tutorial/blob/master/Java%E7%A8%8B%E5%BA%8F%E4%B8%AD%E8%8E%B7%E5%BE%97%E6%9C%AC%E6%9C%BAip%E6%9C%AC%E8%BF%9B%E8%A1%8C%E9%AA%8C%E8%AF%81.md)
 
 - [spring-boot-自动化文档教程](http://192.168.1.33:8080/ty-software/awesome-tutorial/blob/master/spring-boot-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%96%87%E6%A1%A3%E6%95%99%E7%A8%8B.md)
+- [Uubuntu 18.04 LTS 安装mongoDB](Uubuntu 18.04 LTS 安装mongoDB.md)
 
 ## 运维,部署与监控
 
