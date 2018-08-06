@@ -11,9 +11,8 @@
 
 ## 程序
 - [Java程序中获得本机ip本进行验证](/Java程序中获得本机ip本进行验证.md)
-
 - [spring-boot-自动化文档教程](/spring-boot-自动化文档教程.md)
-- [Uubuntu 18.04 LTS 安装mongoDB](/Uubuntu 18.04 LTS 安装mongoDB.md)
+- [ubuntu 18.04 LTS 安装mongoDB.md](/ubuntu 18.04 LTS 安装mongoDB.md)
 
 ## 运维,部署与监控
 
