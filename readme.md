@@ -8,6 +8,7 @@
 - [Gitlab 的效率流](/gitlab效率流.md)
 - [如何clone他人的项目并运行](/如何clone他人的项目并运行.md)
 - [关于README文档的规范](/关于README文档的规范.md)
+- [如何更新fork的远程仓库](/如何更新fork的远程仓库.md)
 
 ## 程序
 - [Java程序中获得本机ip本进行验证](/Java程序中获得本机ip本进行验证.md)
