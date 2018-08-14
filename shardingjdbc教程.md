@@ -18,7 +18,7 @@ shardingJDBC
 
 既然决定了数据库需要进行分库，分表。就去找了一个已经开发好的开源项目，就是当当网的shardingJDBC。
 
-shardingJDBC是轻量级的数据库分库分表中间件，使用jar包提供服务不需要额外的部署，可以理解为一个增强的jdbc驱动，可以与市面上的绝大多数orm框架结合。它可以与springboot结合使用，可以自定义分片规则，自身没有内置的分片算法，将分片场景抽象化，交由使用者自身去决定（实现某接口，再在application资源文件中指定文件路径）。
+shardingJDBC是轻量级的数据库分库分表中间件，使用jar包提供服务不需要额外的部署，可以理解为一个增强的jdbc驱动，可以与市面上的绝大多数orm框架结合。它可以与springboot结合使用，可以自定义分片规则，自身没有内置的分片算法，将分片场景jiaocheng抽象化，交由使用者自身去决定（实现某接口，再在application资源文件中指定文件路径）。
 
 
 
@@ -59,16 +59,20 @@ shardingjdbc 内置有分布式主键的生成，采用snowflake算法实现，�
 
 一：引入jar包依赖
 
+```java
     <dependency>
         <groupId>io.shardingsphere</groupId>
         <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
         <version>${sharding-sphere.version}</version>
     </dependency>
+```
+
 
 将原本的 spring-boot-starter依赖注释，因为这个依赖中已经引入了springboot-starter
 
 二：配置shardingJDBC  (application.properties)
 
+```properties
     sharding.jdbc.datasource.names=ds0  #数据源名称
     
     sharding.jdbc.datasource.ds0.type=org.apache.commons.dbcp2.BasicDataSource #数据库连接池类
@@ -81,11 +85,14 @@ shardingjdbc 内置有分布式主键的生成，采用snowflake算法实现，�
     sharding.jdbc.config.sharding.tables.student<逻辑表名称>.table-strategy.standard.precise-algorithm-class-name=com.shardingjdbc.demo.shardingAlgorithm.StandardShardingStrategy  #某个实现了分片算法的类
     sharding.jdbc.config.sharding.tables.student<逻辑表名称>.table-strategy.standard.sharding-column=student_id #分片键
     sharding.jdbc.config.sharding.tables.student<逻辑表名称>.key-generator-column-name=id #分布式主键
+```
+
 
 实现了标准分片算法PreciseShardingAlgorithm 、复合分片算法接口.......，的类路径
 
 以上全部配置完成后，可以配合各种orm框架进行使用如：
 
+```java
     public void addUser() throws ParseException {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String da = "2018-8-3 14:28:12";
@@ -99,9 +106,10 @@ shardingjdbc 内置有分布式主键的生成，采用snowflake算法实现，�
         };
         List all = studentRepository.findAll(querySpecifi);
     
-    
         List<Student> all1 = studentRepository.findAll();
         Student one = studentRepository.findOne(231469524812038144L);
     }
+```
+
 
 以上代码完成了通过springdatajpa 构造查询条件进行查询的功能，目前我配置了标准分片算法，该算法对=或者in 操作符作操作，所以在构造 equal 条件时会走我自定义的逻辑，如果是查询条件没有进行分片配置那就执行全路由
